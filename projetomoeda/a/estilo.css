@@ -4,7 +4,7 @@
 }
 
 html{
-    scroll-behavior: smooth; /*rolagem suave do scroll*/
+    scroll-behavior: smooth; 
 }
 
 body{
@@ -83,7 +83,11 @@ header a:hover{
 .conversor{
     display: flex;
     margin: 0;
-    padding: 0;
+    padding: 0px;
+    background-color: #EBF1CB;
+    width: 100%;
+   
+    border-radius: 20px;
 }
 
 img{
@@ -98,31 +102,35 @@ img{
     justify-content: center;
     text-align: center;
     height: 100vh;
-    margin-left: 10%;
+    
     margin-right: 185px;
     left: 30%;
     margin-top: 180px;
     z-index: 0;
     padding-top: 3rem;
+    
 
 }
 
 .painel{
+    color: #F4EADB;
     padding: 0%; 
     border: 3px ; 
     border-radius:2%; 
-    background-color: #fefae0; 
+    background-color: #A4AF69; 
     height: 520px;
     width: 466px;
     margin-right: 85px ;
     position: relative;
+    font-size: larger;
 }
 
 #tax_info1 h2{
-    color: #dfd5d2;
-    font-size:x-large;
+    color: #F4EADB;
+    font-size:40px;
     border-top: 50px;
     margin-top: 50px;
+    
 }
 
 
@@ -130,18 +138,20 @@ img{
     cursor: pointer;
     display: block;
     padding: 0%; 
-    width: 40px; 
-    height: 40px;
-    border-radius:10%; 
-    background-color: #4A4E69;
-    background-image: url('images/conversor.png');
+    width: 65px; 
+    height: 65px;
+    border-radius:100%; 
+    background-color: #A4AF69;
+    background-image: url('images/botao\ \(1\).png');
     background-position: center;
     background-size: cover;
-    margin-left: 30vh;
-    margin-right: 50%;;
+    margin-left:202px;
+    margin-right: 20px;;
     position: relative;
     align-items: center;
-    top: 50px;
+    top: 55px;
+    bottom: 60px;
+    border: none;
 }
 
 #moeda{
@@ -181,6 +191,8 @@ img{
     text-align: center;
     position: relative;
     top: 60px;
+    border-style: none;
+    margin-left: 5px;
 
 }
 
@@ -195,7 +207,7 @@ img{
     text-align: center;
     justify-content: center;
     position: relative;
-    top: 20px;
+    top: 50px;
 }
 
 #to_ammount{
@@ -209,7 +221,9 @@ img{
     text-align: center;
     justify-content: center;
     position: relative;
-    top: 20px;
+    top: 50px;
+    border-style: none;
+    margin-left: 5px;
 
 }
 
@@ -218,21 +232,24 @@ img{
     border-radius: 10;
     background-color: #F4EADB;
     color: #2B2D42;
-    border-radius: 4px;
-    font-size: 15px;
+    border-radius: 20px;
+    font-size: medium;
 
     height: 2.3125rem;
     margin: 5 5 0rem;
     padding: 0.5rem;
-    width: 90%;
+    width: 80%;
     top: 350px;
-    margin-left: 30px;
+    margin-left: 50px;
     margin-top: 70px;
 
     display: block;
     box-sizing: border-box;
     align-items: center;
     position: absolute;
+}
+#converter{
+  margin-right: 260px;
 }
 
 #ComoUsar {
@@ -245,6 +262,7 @@ img{
     margin-top: -20vh;
     margin-left: 20vh;
     color: #3F4323;
+    border-radius:2%; 
     
 }
 
@@ -259,6 +277,7 @@ img{
     padding-left: 10vh;
     padding-right: 10vh;
     padding-bottom: 10vh;
+    border-radius:2%; 
 }
 
 #usar {
@@ -273,9 +292,7 @@ img{
     margin-top: 1vh;
 }
 
-#texto{
 
-}
 
 #equipe{
     text-align: center;
