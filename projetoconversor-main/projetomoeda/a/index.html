@@ -1,0 +1,550 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+    <link rel="stylesheet" href="estilo.css">
+    <script src="script.js" defer></script>
+  
+
+    <title>Conversor</title>
+</head>
+
+   <header>
+        <div class="titulo">
+            <img src="images/logo2.png" alt="">
+            <h1>CoinVerse</h1>
+        </div>
+     
+         <ul>
+           <li><a href="#conversor">Conversor</a></li>
+           <li><a href="#ComoUsar">Como Usar</a></li>
+           <li><a href="#equipe">Sobre</a></li>
+          </ul>
+   </header>
+        
+    <body>
+      
+      <section class="conversor" id="conversor">
+       <img id="#moedas" src="images/monyy.png" alt="">
+        <div class="container">
+            <div class="painel">
+              <span id="tax_info1"><H2>Conversor de Moeda</H2></span>
+              <div>
+                <div>
+                  <p id="moeda">Moeda</p>
+                  <p id="valor">Valor</p>
+                </div>
+                <select id="from_currency">
+                  <option value="AFN">AFEGANI</option>
+                  <option value="ZAR">RAND</option>
+                  <option value="ALL">LEK ALBANES</option>
+                  <option value="BRL">REAL</option>
+                  <option value="EUR">EURO</option>
+                  <option value="USD">DOLLAR</option>
+                  <option value="DZD">DINAR ARGELINO</option>
+                  <option value="AOA">KWANZA</option>
+                  <option value="XCD">DÓLAR DO CARIBE ORIENTAL</option>
+                  <option value="ANG">FLORIM DO CARIBE</option>
+                  <option value="SAR">RIAL SAUDITA</option>
+                  <option value="ARS">PESO ARGENTINO</option>
+                  <option value="AMD">DRAM ARMENIO</option>
+                  <option value="AWG">FLORIM DE ARRUBA</option>
+                  <option value="AUD">DÓLAR AUSTRLIANO</option>
+                  <option value="AZN">MANAT</option>
+                  <option value="BSD">DÓLAR DAS BAHAMAS</option>
+                  <option value="BHD">DINAR DO BAHREIN</option>
+                  <option value="BDT">TAKA</option>
+                  <option value="BBD">DÓLAR DE BARBADOS</option>
+                  <option value="BYR">RUBLO BIELORRUSSO</option>
+                  <option value="BZD">DÓLAR DE BELIZE</option>
+                  <option value="XOF">FRANCO CFA OCIDENTAL</option>
+                  <option value="BMD">DÓLAR DAS BERMUDAS</option>
+                  <option value="INR">RHOUP INDIANO</option>
+                  <option value="BTN">NGULTRUM</option>
+                  <option value="BOB">BOLIVIANO</option>
+                  <option value="BOV">MVDOL</option>
+                  <option value="BAM">MARCA CONVERSÍVEL</option>
+                  <option value="BWP">PULA</option>
+                  <option value="NOK">COROA NORUEGUESA</option>
+                  <option value="BND">DÓLAR DE BRUNEI</option>
+                  <option value="BGN">LEV BÚLGARO</option>
+                  <option value="BIF">FRANCO DO BURUNDI</option>
+                  <option value="KYD">DÓLAR DAS ILHAS CAYMAN</option>
+                  <option value="KHR">RIEL</option>
+                  <option value="XAF">FRANCO CFA DA ÁFRICA CENTRAL</option>
+                  <option value="CAD">DÓLAR CANADENSE</option>
+                  <option value="CV">ESCUDO DE CABO VERDE</option>
+                  <option value="CLP">PESO CHILENO</option>
+                  <option value="CLF">UNIDADE DE FOMENTO CHILENA</option>
+                  <option value="CNY">RENMINBI CHINÊS</option>
+                  <option value="COP">PESO COLOMBIANO</option>
+                  <option value="COU">UNIDADE DE VALOR REAL COLOMBIANA</option>
+                  <option value="KMF">FRANCO DAS COMORES</option>
+                  <option value="CDF">FRANCO CONGOLÊS</option>
+                  <option value="CRC">COLÓN COSTA-RIQUENHO</option>
+                  <option value="HRK">KUNA CROATA</option>
+                  <option value="CUP">PESO CUBANO</option>
+                  <option value="CUC">PESO CUBANO CONVERSÍVEL</option>
+                  <option value="CZK">COROA TCHÉCA</option>
+                  <option value="DKK">COROA DINAMARQUESA</option>
+                  <option value="DJF">FRANCO DJIBUTIENSE</option>
+                  <option value="DOP">PESO DOMINICANO</option>
+                  <option value="EGP">LIBRA EGÍPCIA</option>
+                  <option value="ERN">NAKFA ERITREIA</option>
+                  <option value="EEK">COROA ESTONIANA</option>
+                  <option value="ETB">BIRR ETÍOPE</option>
+                  <option value="FJD">DÓLAR DE FIJI</option>
+                  <option value="GMD">DALASI GAMBIANO</option>
+                  <option value="GEL">LARI GEORGIANO</option>
+                  <option value="GHS">CEDI GANÊS</option>
+                  <option value="GIP">LIBRA DE GIBRALTAR</option>
+                  <option value="GTQ">QUETZAL GUATEMALTECO</option>
+                  <option value="GNF">FRANCO GUINEENSE</option>
+                  <option value="GYD">DÓLAR DA GUIANA</option>
+                  <option value="HTG">GOURDE HAITIANO</option>
+                  <option value="HNL">LEMPIRA HONDURENHA</option>
+                  <option value="HKD">DÓLAR DE HONG KONG</option>
+                  <option value="HUF">FORINT HÚNGARO</option>
+                  <option value="ISK">COROA ISLANDESA</option>
+                  <option value="IDR">RUPIA INDONÉSIA</option>
+                  <option value="IRR">RIAL IRANIANO</option>
+                  <option value="IQD">DINAR IRAQUIANO</option>
+                  <option value="ILS">NOVO SHEKEL ISRAELENSE</option>
+                  <option value="JMD">DÓLAR JAMAICANO</option>
+                  <option value="JPY">IENE JAPONÊS</option>
+                  <option value="JOD">DINAR JORDANIANO</option>
+                  <option value="KZT">TENGE CAZAQUE</option>
+                  <option value="KES">XELIM QUENIANO</option>
+                  <option value="KPW">WON NORTE-COREANO</option>
+                  <option value="KRW">WON SUL-COREANO</option>
+                  <option value="KWD">DINAR KUWAITI</option>
+                  <option value="KGS">SOM QUIRGUÍZ</option>
+                  <option value="KWD">DINAR KUAITIANO</option>
+                  <option value="KGS">SOM QUIRGUÍZ</option>
+                  <option value="LAK">KIP DO LAOS</option>
+                  <option value="LVL">LATS LETÃO</option>
+                  <option value="LBP">LIBRA LIBANESA</option>
+                  <option value="LSL">LOTI DO LESOTO</option>
+                  <option value="LRD">DÓLAR LIBERIANO</option>
+                  <option value="LYD">DINAR LÍBIO</option>
+                  <option value="CHF">FRANCO SUÍÇO</option>
+                  <option value="LTL">LITAS LITUANO</option>
+                  <option value="MKD">DINAR MACEDÔNIO</option>
+                  <option value="MGA">ARIARY DE MADAGASCAR</option>
+                  <option value="MWK">KWACHA DO MALAUI</option>
+                  <option value="MYR">RINGGIT MALAIO</option>
+                  <option value="MVR">RUFIYAA DAS MALDIVAS</option>
+                  <option value="XOF">FRANCO CFA DA ÁFRICA OCIDENTAL</option>
+                  <option value="XAF">FRANCO CFA DA ÁFRICA CENTRAL</option>
+                  <option value="XPF">FRANCO CFP</option>
+                  <option value="MRO">OUGUIYA DA MAURITÂNIA</option>
+                  <option value="MUR">RUPIA DE MAURÍCIA</option>
+                  <option value="MXN">PESO MEXICANO</option>
+                  <option value="MXV">UNIDADE DE INVESTIMENTO MEXICANA</option>
+                  <option value="MDL">LEU MOLDAVO</option>
+                  <option value="MNT">TUGRIK MONGOL</option>
+                  <option value="MAD">DIRHAM MARROQUINO</option>
+                  <option value="MZN">METICAL MOÇAMBICANO</option>
+                  <option value="MMK">KYAT DE MIANMAR</option>
+                  <option value="NAD">DÓLAR DA NAMÍBIA</option>
+                  <option value="NPR">RUPIA NEPALESA</option>
+                  <option value="NZD">DÓLAR NEOZELANDÊS</option>
+                  <option value="NIO">CÓRDOBA NICARAGUENSE</option>
+                  <option value="NGN">NAIRA NIGERIANA</option>
+                  <option value="NOK">COROA NORUEGUESA</option>
+                  <option value="OMR">RIAL OMANI</option>
+                  <option value="PAB">BALBOA PANAMENHO</option>
+                  <option value="PGK">KINA PAPUÁSIA-NOVA-GUINEENSE</option>
+                  <option value="PYG">GUARANI PARAGUAIO</option>
+                  <option value="PEN">SOL PERUANO</option>
+                  <option value="PHP">PESO FILIPINO</option>
+                  <option value="PLN">ZLOTY POLONÊS</option>
+                  <option value="QAR">RIAL CATARI</option>
+                  <option value="RON">LEU ROMENO</option>
+                  <option value="RUB">RUBLO RUSSO</option>
+                  <option value="RWF">FRANCO RUANDÊS</option>
+                  <option value="WST">TALA SAMOANO</option>
+                  <option value="STD">DOBRAS DE SÃO TOMÉ E PRÍNCIPE</option>
+                  <option value="SAR">RIAL SAUDITA</option>
+                  <option value="RSD">DINAR SÉRVIO</option>
+                  <option value="SCR">RUPIA SEICHELENSE</option>
+                  <option value="SLL">LEONE SERRA LEOSENSE</option>
+                  <option value="SGD">DÓLAR SINGAPURENSE</option>
+                  <option value="SKK">COROA ESLOVACA</option>
+                  <option value="SBD">DÓLAR DAS ILHAS SALOMÃO</option>
+                  <option value="SOS">XELIM SOMALI</option>
+                  <option value="ZAR">RAND SUL-AFRICANO</option>
+                  <option value="SSP">LIBRA SUL-SUDANESA</option>
+                  <option value="LKR">RUPIA DO SRI LANKA</option>
+                  <option value="SDG">LIBRA DO SUDÃO</option>
+                  <option value="SRD">DÓLAR SURINAMÊS</option>
+                  <option value="SZL">LILANGENI DA SUAZILÂNDIA</option>
+                  <option value="SEK">COROA SUECA</option>
+                  <option value="CHF">FRANCO SUÍÇO</option>
+                  <option value="SYP">LIBRA SÍRIA</option>
+                  <option value="TWD">NOVO DÓLAR DE TAIWAN</option>
+                  <option value="TJS">SOMONI DO TAJIQUISTÃO</option>
+                  <option value="TZS">XELIM DA TANZÂNIA</option>
+                  <option value="THB">BAHT TAILANDÊS</option>
+                  <option value="TOP">PA'ANGA DE TONGA</option>
+                  <option value="TTD">DÓLAR TRINITINO</option>
+                  <option value="TND">DINAR TUNISIANO</option>
+                  <option value="TRY">NOVA LIRA TURCA</option>
+                  <option value="TMT">MANAT DO TURQUEMENISTÃO</option>
+                  <option value="UGX">XELIM UGANDENSE</option>
+                  <option value="UAH">GRÍVIA UCRANIANA</option>
+                  <option value="AED">DIRHAM DOS EMIRADOS ÁRABES UNIDOS</option>
+                  <option value="GBP">LIBRA ESTERLINA</option>
+                  <option value="USD">DÓLAR DOS ESTADOS UNIDOS</option>
+                  <option value="UYU">PESO URUGUAIO</option>
+                  <option value="UZS">SUM UZBEQUE</option>
+                  <option value="VUV">VATU VANUATUENSE</option>
+                  <option value="VEF">BOLÍVAR VENEZUELANO</option>
+                  <option value="VND">DONG VIETNAMITA</option>
+                  <option value="YER">RIAL IEMENITA</option>
+                  <option value="ZMW">QUACHA ZAMBIANA</option>
+                  <option value="ZWL">DÓLAR ZIMBABUENSE</option>
+                </select>
+                <input type="number" id="from_ammount" value="1"/>
+              </div>
+          
+              <button id="swap"></button>
+
+              <div>
+                
+                <select id="to_currency"></select>
+                <input type="number" id="to_ammount"/>
+              </div>
+              <span id="tax_info"></span>
+            </div>
+          </div>
+
+          
+          <script>
+  
+            const label_from_currency = document.getElementById('from_currency');
+          const input_from_ammount = document.getElementById('from_ammount');
+          const label_to_currency = document.getElementById('to_currency');
+          const input_to_ammount = document.getElementById('to_ammount');
+          const tax_info = document.getElementById('tax_info'); // Corrigi o erro aqui
+          const swap = document.getElementById('swap');
+          
+          label_from_currency.addEventListener('change', calculate);
+          input_from_ammount.addEventListener('input', calculate); // Corrigi o erro aqui
+          label_to_currency.addEventListener('change', calculate);
+          input_to_ammount.addEventListener('input', calculate); 
+          
+          swap.addEventListener('click',swapCurrencies);
+          
+          
+          main();
+          function main() {
+            let currency = {
+                  "AFN": "AFEGANI",
+                  "ZAR": "RAND",
+                  "ALL": "LEK ALBANES",
+                  "BRL": "REAL",
+                  "EUR": "EURO",
+                  "USD": "DOLLAR",
+                  "DZD": "DINAR ARGELINO",
+                  "AOA": "KWANZA",
+                  "XCD": "DÓLAR DO CARIBE ORIENTAL",
+                  "ANG": "FLORIM DO CARIBE",
+                  "SAR": "RIAL SAUDITA",
+                  "ARS": "PESO ARGENTINO",
+                  "AMD": "DRAM ARMENIO",      
+                  "AWG": "FLORIM DE ARRUBA",
+                  "AUD": "DÓLAR AUSTRLIANO",
+                  "AZN": "MANAT",
+                  "BSD":"DÓLAR DAS BAHAMAS",
+                  "BHD":"DINAR DO BAHREIN",
+                  "BDT":"TAKA",
+                  "BBD":"DÓLAR DE BARBADOS",
+                  "BYR":"RUBLO BIELORRUSSO",
+                  "BZD":"DÓLAR DE BELIZE",
+                  "XOF":"FRANCO CFA OCIDENTAL",
+                  "BMD":"DÓLAR DAS BERMUDAS",
+                  "INR":"RHOUP INDIANO",
+                  "BTN":"NGULTRUM",
+                  "BOB":"BOLIVIANO",
+                  "BOV":"MVDOL",
+                  "BAM":"MARCA CONVERSÍVEL",
+                  "BWP":"PULA",
+                  "NOK":"COROA NORUEGUESA",
+                  "BND":"DÓLAR DE BRUNEI",
+                  "BGN":"LEV BÚLGARO",
+                  "BIF":"FRANCO DO BURUNDI",
+                  "KYD":"DÓLAR DAS ILHAS CAYMAN",
+                  "KHR":"RIEL",
+                  "XAF":"FRANCO CFA CENTRAL",
+                  "CAD":"DÓLAR CANADENSE",
+                  "CV": "ESCUDO DE CABO VERDE",
+                  "CLP":"PESO CHILENO",
+                  "CLF": "UNIDADE DE FOMENTO CHILENA",
+                  "CNY": "RENMINBI CHINÊS",
+                  "COP": "PESO COLOMBIANO",
+                  "COU": "UNIDADE DE VALOR REAL COLOMBIANA",
+                  "KMF": "FRANCO DAS COMORES",
+                  "CDF": "FRANCO CONGOLÊS",
+                  "CRC": "COLÓN COSTA-RIQUENHO",
+                  "HRK": "KUNA CROATA",
+                  "CUP": "PESO CUBANO",
+                  "CUC": "PESO CUBANO CONVERSÍVEL",
+                  "CZK": "COROA TCHÉCA",
+                  "DKK": "COROA DINAMARQUESA",
+                  "DJF": "FRANCO DJIBUTIENSE",
+                  "DOP": "PESO DOMINICANO",
+                  "EGP": "LIBRA EGÍPCIA",
+                  "ERN": "NAKFA ERITREIA",
+                  "EEK": "COROA ESTONIANA",
+                  "ETB": "BIRR ETÍOPE",
+                  "FJD": "DÓLAR DE FIJI",
+                  "GMD": "DALASI GAMBIANO",
+                  "GEL": "LARI GEORGIANO",
+                  "GHS": "CEDI GANÊS",
+                  "GIP": "LIBRA DE GIBRALTAR",
+                  "GTQ": "QUETZAL GUATEMALTECO",
+                  "GNF": "FRANCO GUINEENSE",
+                  "GYD": "DÓLAR DA GUIANA",
+                  "HTG": "GOURDE HAITIANO",
+                  "HNL": "LEMPIRA HONDURENHA",
+                  "HKD": "DÓLAR DE HONG KONG",
+                  "HUF": "FORINT HÚNGARO",
+                  "ISK": "COROA ISLANDESA",
+                  "IDR": "RUPIA INDONÉSIA",
+                  "IRR": "RIAL IRANIANO",
+                  "IQD": "DINAR IRAQUIANO",
+                  "ILS": "NOVO SHEKEL ISRAELENSE",
+                  "JMD": "DÓLAR JAMAICANO",
+                  "JPY": "IENE JAPONÊS",
+                  "JOD": "DINAR JORDANIANO",
+                  "KZT": "TENGE CAZAQUE",
+                  "KES": "XELIM QUENIANO",
+                  "KPW": "WON NORTE-COREANO",
+                  "KRW": "WON SUL-COREANO",
+                  "KWD": "DINAR KUWAITI",
+                  "KGS": "SOM QUIRGUIZ",
+                  "KWD": "DINAR KUAITIANO",
+                  "KGS": "SOM QUIRGUÍZ",
+                  "LAK": "KIP DO LAOS",
+                  "LVL": "LATS LETÃO",
+                  "LBP": "LIBRA LIBANESA",
+                  "LSL": "LOTI DO LESOTO",
+                  "LRD": "DÓLAR LIBERIANO",
+                  "LYD": "DINAR LÍBIO",
+                  "CHF": "FRANCO SUÍÇO",
+                  "LTL": "LITAS LITUANO",
+                  "MKD": "DINAR MACEDÔNIO",
+                  "MGA": "ARIARY DE MADAGASCAR",
+                  "MWK": "KWACHA DO MALAUI",
+                  "MYR": "RINGGIT MALAIO",
+                  "MVR": "RUFIYAA DAS MALDIVAS",
+                  "XOF": "FRANCO CFA DA ÁFRICA OCIDENTAL",
+                  "XAF": "FRANCO CFA DA ÁFRICA CENTRAL",
+                  "XPF": "FRANCO CFP",
+                  "MRO": "OUGUIYA DA MAURITÂNIA",
+                  "MUR": "RUPIA DE MAURÍCIA",
+                  "MXN": "PESO MEXICANO",
+                  "MXV": "UNIDADE DE INVESTIMENTO MEXICANA",
+                  "MDL": "LEU MOLDAVO",
+                  "MNT": "TUGRIK MONGOL",
+                  "MAD": "DIRHAM MARROQUINO",
+                  "MZN": "METICAL MOÇAMBICANO",
+                  "MMK": "KYAT DE MIANMAR",
+                  "NAD": "DÓLAR DA NAMÍBIA",
+                  "NPR": "RUPIA NEPALESA",
+                  "NZD": "DÓLAR NEOZELANDÊS",
+                  "NIO": "CÓRDOBA NICARAGUENSE",
+                  "NGN": "NAIRA NIGERIANA",
+                  "NOK": "COROA NORUEGUESA",
+                  "OMR": "RIAL OMANI",
+                  "PAB": "BALBOA PANAMENHO",
+                  "PGK": "KINA PAPUÁSIA-NOVA-GUINEENSE",
+                  "PYG": "GUARANI PARAGUAIO",
+                  "PEN": "SOL PERUANO",
+                  "PHP": "PESO FILIPINO",
+                  "PLN": "ZLOTY POLONÊS",
+                  "QAR": "RIAL CATARI",
+                  "RON": "LEU ROMENO",
+                  "RUB": "RUBLO RUSSO",
+                  "RWF": "FRANCO RUANDÊS",
+                  "WST": "TALA SAMOANO",
+                  "STD": "DOBRAS DE SÃO TOMÉ E PRÍNCIPE",
+                  "SAR": "RIAL SAUDITA",
+                  "RSD": "DINAR SÉRVIO",
+                  "SCR": "RUPIA SEICHELENSE",
+                  "SLL": "LEONE SERRA LEOSENSE",
+                  "SGD": "DÓLAR SINGAPURENSE",
+                  "SKK": "COROA ESLOVACA",
+                  "SBD": "DÓLAR DAS ILHAS SALOMÃO",
+                  "SOS": "XELIM SOMALI",
+                  "ZAR": "RAND SUL-AFRICANO",
+                  "SSP": "LIBRA SUL-SUDANESA",
+                  "LKR": "RUPIA DO SRI LANKA",
+                  "SDG": "LIBRA DO SUDÃO",
+                  "SRD": "DÓLAR SURINAMÊS",
+                  "SZL": "LILANGENI DA SUAZILÂNDIA",
+                  "SEK": "COROA SUECA",
+                  "CHF": "FRANCO SUÍÇO",
+                  "SYP": "LIBRA SÍRIA",
+                  "TWD": "NOVO DÓLAR DE TAIWAN",
+                  "TJS": "SOMONI DO TAJIQUISTÃO",
+                  "TZS": "XELIM DA TANZÂNIA",
+                  "THB": "BAHT TAILANDÊS",
+                  "TOP": "PA'ANGA DE TONGA",
+                  "TTD": "DÓLAR TRINITINO",
+                  "TND": "DINAR TUNISIANO",
+                  "TRY": "NOVA LIRA TURCA",
+                  "TMT": "MANAT DO TURQUEMENISTÃO",
+                  "UGX": "XELIM UGANDENSE",
+                  "UAH": "GRÍVIA UCRANIANA",
+                  "AED": "DIRHAM DOS EMIRADOS ÁRABES UNIDOS",
+                  "GBP": "LIBRA ESTERLINA",
+                  "USD": "DÓLAR DOS ESTADOS UNIDOS",
+                  "UYU": "PESO URUGUAIO",
+                  "UZS": "SUM UZBEQUE",
+                  "VUV": "VATU VANUATUENSE",
+                  "VEF": "BOLÍVAR VENEZUELANO",
+                  "VND": "DONG VIETNAMITA",
+                  "YER": "RIAL IEMENITA",
+                  "ZMW": "QUACHA ZAMBIANA",
+                  "ZWL": "DÓLAR ZIMBABUENSE"
+                  
+            }
+            options = [];
+            for (let [key, value] of Object.entries(currency)) {
+              options.push(`<option value='${key}'>${value}</option>`);
+            }
+            label_to_currency.innerHTML = options.join('\n'); // Corrigi o erro aqui
+            
+            calculate();
+          }
+          function swapCurrencies() {
+            let temp = label_from_currency.value;
+            label_from_currency.value = label_to_currency.value;
+            label_to_currency.value = temp;
+            calculate();
+          }
+          
+          
+          async function getURL(url) {
+            return (await fetch(url)).json();
+          }
+          function getinfoSelect(select) {
+            return select.options[select.selectedIndex].text;
+          }
+          async function calculate() {
+            let from = label_from_currency.value;
+            let to = label_to_currency.value;
+            
+            let { rates } = await getURL(`https://api.exchangerate-api.com/v4/latest/${from}`);
+            let rate = rates[to];
+            tax_info.innerText = `1 ${getinfoSelect(label_from_currency)} = ${rate} ${getinfoSelect(label_to_currency)}`;
+            input_to_ammount.value = (input_from_ammount.value * rate).toFixed(2);}
+            
+            
+            </script>
+            </section>
+
+            <section id="ComoUsar">
+      
+              <div id="passos"> 
+                <h2 id="passo">Passo 1: Escolha a moeda</h2>
+                <p id="texto">Você tem um campo de entrada e um
+                    de saída, no campo de entrada
+                    selecione a moeda da qual você deseja
+                    converter o valor. No campo de saída,
+                    escolha a moeda para a qual deseja
+                    converter.</p>
+              </div>
+              <div id="passos">
+                    <h2 id="passo">Passo 2: Insira o valor</h2>
+                    <p id="texto">Insira o valor numérico que deseja
+                        converter no campo de entrada. Por
+                        exemplo, se você estiver convertendo
+                        dólares americanos em euros, insira a
+                        quantidade de dólares que deseja
+                        converter.</p>
+              </div>
+              <div id="passos">
+              <h2 id="passo">Passo 3: Veja o resultado</h2>
+                <p id="texto">Após inserir o valor, o conversor irá
+                    calcular automaticamente o equivalente
+                    desse valor na moeda de destino com
+                    base nas cotação atual. O resultado
+                    será exibido imediatamente, mostrando
+                    quanto o valor da moeda de origem
+                    vale na moeda de destino.</p>
+              </div> 
+              <div id="usar">
+                <H2>COMO USAR?</H2>
+              </div>
+            </section>
+
+            <section id="equipe">
+              <div>
+                <h2 id="sobre">EQUIPE FOUR TEAM</h2>
+              </div>
+              <div class="wrapper">
+                <i id="left" class="fa-solid fa-angle-left"></i>
+                <ul class="carousel">
+                  <li class="card">
+                    <div class="img"><img src="images/img1.jpeg" alt="img" draggable="false"></div>
+                    <h2>Isadora Fonseca | 20 anos</h2>
+                    <span>“Estou muito feliz em poder compartilhar meus conhecimentos adquiridos
+                      no grupo de estudos e poder desenvolver minhas habilidades com o time.”</span>
+                      <a href="https://www.linkedin.com/in/isadora-fonseca-aa7545257" target="_blank">
+                        <img id="linkedin" src="images/linkedin.png" alt="">
+                      </a>                  </li>
+                  <li class="card">
+                    <div class="img"><img src="images/img2.jpeg" alt="img" draggable="false"></div>
+                    <h2>Isadora Morari | 21 anos</h2>
+                    <span>“É muito gratificante compartilhar conhecimento e adquirir novas experiências. Estou muito feliz em fazer parte desse time e de desenvolver minhas habilidades no grupo de estudos. ”</span>
+                    <a href="https://www.linkedin.com/in/isadoramcamargo/" target="_blank">
+                      <img id="linkedin" src="images/linkedin.png" alt="">
+                    </a>                  </li>
+                  <li class="card">
+                    <div class="img"><img src="images/img3.jpeg" alt="img" draggable="false"></div>
+                    <h2> Guilherme Castro | 22 anos</h2>
+                    <span>“É uma experiência incrível poder aprender em equipe, conseguir 
+                      desenvolver minhas habiliadades e aprimorar meus conhecimentos para futuros projetos. </span>
+                    <a href="https://www.linkedin.com/in/guilhermecoutodecastro/" target="_blank">
+                      <img id="linkedin" src="images/linkedin.png" alt="">
+                    </a>                  </li>
+                  <li class="card">
+                    <div class="img"><img src="images/img4.jpeg" alt="img" draggable="false"></div>
+                    <h2>Vicente | 26 anos</h2>
+                    <span>Freelancer</span>
+                    <a href="" target="_blank">
+                      <img id="linkedin" src="images/linkedin.png" alt="">
+                    </a>
+                  </li>
+                  
+                </ul>
+                <i id="right" class="fa-solid fa-angle-right"></i>
+              </div>
+            </section>
+
+            <footer> 
+              <div>
+                   <p>Fundado em 2023 pelo Four Team, dentro do grupo de estudos AGES - CREATUS, o CoinVerse surge como uma plataforma voltada para a conversão de moedas. Nossa missão é apresentar de maneira ágil e precisa diferentes taxas de câmbio de forma instantânea e descomplicada.</p>
+               </div>
+               <div class="logos">
+                <a href="https://www.ages.pucrs.br/" target="_blank">
+                  <img id="logoages" src="images/logoages.png" alt="">
+                </a>
+                <a href="https://www.pucrs.br/politecnica/" target="_blank">
+                  <img id="politecnica" src="images/politecnica.png" alt="">
+                </a>
+                <a href="https://creatusdev.com/" target="_blank">
+                  <img id="logocreatus" src="images/creatus.png" alt="">
+                </a>
+               </div>
+            </footer>
+
+          </body>
+          </html>
+          
+      
