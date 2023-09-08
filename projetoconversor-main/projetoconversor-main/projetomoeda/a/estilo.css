@@ -47,7 +47,7 @@ header h1{
 }
 
 header .titulo{
-color: #F4EADB;
+color: #3F4323;
 margin-right: 190px;
 padding-top: 30px;
 flex-wrap: wrap;
@@ -73,14 +73,14 @@ header ul{
 
 header a{
     text-decoration: none;
-    color: #F4EADB;
+    color: #3F4323;
     transition: 0.8s;
     font-size: larger;
     font-family:Arial, Helvetica, sans-serif;
 }
 
 header a:hover{
-    color: #51291E;
+    color: #ffffff;
 }
 
 .conversor{
@@ -269,8 +269,8 @@ header a:hover{
 }
 
 #ComoUsar {
-    background-color: #f7f5f1;
-    display: block;
+    background-color: #F3F6DF;
+    display:block;
     align-items: center; 
     padding-left: 120vh;
     padding: 10vh;
@@ -285,8 +285,7 @@ header a:hover{
 }
 
 #passos {
-    display: block;
-    background-color: #F0E2D1;
+    background-color: #e0e4c5;
     color: #3F4323;
     font-size: 2vh;
     width: 30%;
@@ -296,9 +295,15 @@ header a:hover{
     padding-left: 10vh;
     padding-right: 10vh;
     padding-bottom: 2vh;
-    margin: 2vh;
+    margin-left: 17vh;
+    margin-top: 5vh;
+    margin-right: 0;
     border-radius:2vh;
     font-family: Arial, Helvetica, sans-serif; 
+}
+
+#passos:first-child{
+  margin-top: 0;
 }
 
 #passo {
@@ -307,9 +312,7 @@ header a:hover{
     font-family: Arial, Helvetica, sans-serif;
 }
 
-#usar {
-    display: flex;
-    text-align: center;
+.usar {
     margin-left: 40vh;
     width: 5vh;
     font-size: 6vh;
@@ -351,6 +354,7 @@ section #equipe{
     background: #fff;
     border-radius: 50%;
     box-shadow: 0 3px 6px rgba(0,0,0,0.23);
+    color: #405543;
     transform: translateY(-50%);
     transition: transform 0.1s linear;
   }
@@ -414,7 +418,7 @@ section #equipe{
     height: 140px;
     border-radius: 50%;
     object-fit: cover;
-    border: 4px solid #6780ca;
+    border: 4px solid #55360a;
     margin-left: 0;
     margin-top: 0;
   }
@@ -431,6 +435,17 @@ section #equipe{
     text-align: center;
     padding: o.5vh;
     font-family: Arial, Helvetica, sans-serif;
+  }
+
+  #linkedin{
+    width: 3vh;
+    height: 3vh;
+    margin: 2vh;
+  }
+
+  a:hover #linkedin{
+    background-color: #b0b494;
+    transition: 0.4s;
   }
   
   @media screen and (max-width: 900px) {
@@ -468,15 +483,28 @@ footer p{
     margin-top: 50px;
 }
 
+.logos{
+  display: flex;
+  justify-content:center;
+  gap: 10vh;
+  margin-top: 5vh;
+}
+
 #logoages{
-    width: 20vh;
-    height: 10vh;
+    width: 18vh;
+    height: 6vh;
     margin-top: 0;
     padding: 0;
 }
 
 #politecnica{
-    width: 25vh;
-    height: 10vh;
+    width: 19vh;
+    height: 8vh;
     margin-top: 0;
+}
+
+#logocreatus{
+  width: 20vh;
+  height: 6vh;
+  margin-top: 0;
 }
