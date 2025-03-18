@@ -14,7 +14,7 @@ O CoinVerse é um site intuitivo para conversão de moedas, foi projetado para f
 
 
 ### 📷 Preview
-![Imagem web](https://imgur.com/a/ZLNvdH2)
+<img src="https://i.imgur.com/f7bW1oK.png" alt="Imagem do Imgur" width="400"/>
 
 
-Visualize a aplicação web [aqui](https://coinverseages.netlify.app/)
+### A aplicação está disponível [aqui](https://coinverseages.netlify.app/)
